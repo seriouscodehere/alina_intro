@@ -1,7 +1,7 @@
 {
   "name": "alina",
   "compatibility_date": "2026-01-11",
-  "main": "worker.js",
+  "main": "workers.js",
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS"
