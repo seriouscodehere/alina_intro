@@ -1,73 +1,75 @@
-# React + TypeScript + Vite
+# Alina Vandenberghe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Hero Section](./public/demo/img1.png)
 
-Currently, two official plugins are available:
+## Technology Leader • Entrepreneur • Product Visionary
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Table of Contents
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [About](#about)
+- [Live Preview](#live-preview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
 
-## Expanding the ESLint configuration
+## About
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+![About Section](./public/demo/img2.png)
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+This project is a modern introduction landing page presenting the professional journey, leadership influence, and technology contributions of Alina Vandenberghe.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+The page is built with strong focus on performance, accessibility, and high quality user experience.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Live Preview
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+👉 **[Visit Intro Page](https://your-domain.com )**
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## Features
+
+- Fully responsive layout
+- Edge optimized deployment
+- Smooth UI animations
+- SEO ready architecture
+- Mobile first design
+- Global CDN acceleration
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+| ----------- | ------------ |
+| Framework | React / Vite.js |
+| Styling | Tailwind CSS |
+| Components | Shadcn UI |
+| Animations | Framer Motion |
+| Animations | Three JS |
+| Deployment | Cloudflare Workers |
+| CDN | Cloudflare Edge Network |
+
+---
+
+## Mission
+
+![Mission Section](./public/demo/img3.png)
+
+---
+
+## Resources
+
+![Resources Section](./public/demo/img4.png)
+
+---
+
+## Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/seriouscodehere/alina_intro.git
